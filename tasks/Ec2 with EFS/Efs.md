@@ -103,6 +103,9 @@ This guide will walk you through creating a real-time chat application that stor
    ![preview](images/6.png)
 5. **Create the Server**:
    - Create a file named `server.js` with the following code:
+
+   ![preview](images/10.png)
+
    ```javascript
    const express = require('express');
    const WebSocket = require('ws');
@@ -155,6 +158,9 @@ This guide will walk you through creating a real-time chat application that stor
    ```
 6. **Create a Simple HTML Client**:
    - Create a directory named `public`, and inside it, create an `index.html` file with the following code:
+
+   ![preview](images/11.png)
+   
    ```html
    <!DOCTYPE html>
    <html>
